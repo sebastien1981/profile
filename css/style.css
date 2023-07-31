@@ -1,0 +1,100 @@
+body {
+  color:LightGray;
+  background-color: red;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  font-size: 20px; 
+  line-height: 10px;
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+a {
+  color: aqua;
+  text-decoration: firebrick;
+}
+
+h1 {
+  color:blue;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  line-height: 10px;
+}
+
+p {
+  color: seagreen;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  line-height: 5px;
+}
+
+
+.profile_picture {
+  border-radius: 50%;
+  width: 200px;
+  height:200px;
+
+}
+
+#information_first {
+  background-color: blanchedalmond;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  
+  text-align: center;
+}
+
+#container {
+  text-align: center;
+  margin: 0 auto;
+  width: 900px;
+}
+
+#follow_me {
+  background-color: blanchedalmond;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+ul,li{
+  text-align: center;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.imagepourgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+ 
